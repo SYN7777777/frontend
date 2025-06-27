@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // your backend URL
+  baseURL: 'https://selling-buyer-backend-2.onrender.com',
   withCredentials: false,               // keep false if not using cookies
   headers: {
     'Content-Type': 'application/json',
